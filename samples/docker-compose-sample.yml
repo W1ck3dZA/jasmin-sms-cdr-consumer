@@ -1,0 +1,19 @@
+services:
+  sms-cdr-consumer:
+    image: quintenrowland/jasmin-sms-cdr-consumer:v1.0.0
+    container_name: jasmin-sms-cdr-consumer
+    environment:
+      REDIS_HOST: 127.0.0.1
+      REDIS_PORT: 6379
+      MYSQL_HOST: 127.0.0.1
+      MYSQL_PORT: 3306
+      MYSQL_USER: root
+      MYSQL_PASSWORD: somepassword
+      MYSQL_DB: somedb
+      AMQP_HOST: 127.0.0.1
+      AMQP_PORT: 5672
+      AMQP_VHOST: /
+      AMQP_USER: guest
+      AMQP_PASSWORD: guest
+      AMQP_SPEC_FILE: /app/amqp0-9-1.xml
+    restart: unless-stopped
