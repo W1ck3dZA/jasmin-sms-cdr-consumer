@@ -193,13 +193,9 @@ The consumer tracks:
 
 ## Source Code & Documentation
 
-- **GitHub Repository**: [Add your repository URL]
-- **Full Documentation**: See README.md in the repository
-- **Issues & Support**: [Add your issues URL]
-
-## License
-
-[Add your license information]
+- **GitHub Repository**: https://github.com/W1ck3dZA/jasmin-sms-cdr-consumer
+- **Jasmin Documentation**: https://docs.jasminsms.com/en/latest/
+- **Issues & Support**: quinten.rowland@gmail.com
 
 ---
 
